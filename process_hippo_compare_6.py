@@ -14,7 +14,7 @@ from scipy import ndimage
 
 working_path = os.path.join(os.getcwd(), r'working/hippocampal-seg-working')
 nii_path = os.path.join(working_path, 'nii')
-t1_mni_path = os.path.join(os.getcwd(), r'mri_brain_registration/templates/MNI/t1.nii.gz')
+t1_mni_path = os.path.join(os.getcwd(), r'mri_brain_registration/MNI/1mm/mni_icbm152_t1_tal_nlin_sym_09a.nii')
 
 def segment_fastsurfer(reprocess=False):
     total_studies = len(os.listdir(nii_path))

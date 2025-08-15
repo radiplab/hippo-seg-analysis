@@ -876,10 +876,10 @@ def segment_AssemblyNet(reprocess=False):
 
 def segment_neuroquant():
     dicom_anon_path = r'/media/neurorad/Extreme Pro/working/3t-7t-hipposeg-working3/DICOM-anon-python'
-    aetitle = "R5312351_NQ"
-    aec = "neuroquant_asym"
-    host = "10.146.227.61"
-    port = "14500"
+    aetitle = ""
+    aec = ""
+    host = ""
+    port = ""
 
     for prid_folder in os.listdir(dicom_anon_path):
         prid_path = os.path.join(dicom_anon_path, prid_folder)
